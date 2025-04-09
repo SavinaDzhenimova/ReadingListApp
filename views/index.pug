@@ -43,8 +43,8 @@ block content
       div(class='col-sm-8') #{book.taskName}
       div(class='col-sm-2') #{task.author}
       div(class='col-sm-2') #{task.readDate}
-each book in completedBooks
-  div(class='row mb-3')
-    div(class='col-sm-8') #{book.taskName}
-    div(class='col-sm-2') #{book.author}
-    div(class='col-sm-2') #{book.readDate}
+  each book in completedBooks
+    div(class='row mb-3')
+        div(class='col-sm-8') #{book.taskName}
+        div(class='col-sm-2') #{book.author}
+        div(class='col-sm-2') #{book.readDate}
